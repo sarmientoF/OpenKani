@@ -1,0 +1,9 @@
+[submodule "apps/smouldering_durtles"]
+	path = apps/smouldering_durtles
+	url = https://github.com/sarmientoF/smouldering_durtles.git
+[submodule "apps/tsurukame"]
+	path = apps/tsurukame
+	url = https://github.com/sarmientoF/tsurukame.git
+[submodule "apps/kanji-school"]
+	path = apps/kanji-school
+	url = https://github.com/sarmientoF/KanjiSchool.git

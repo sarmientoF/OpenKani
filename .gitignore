@@ -1,0 +1,16 @@
+# deps
+node_modules/
+src/generated/
+files/
+logs/
+.env
+.next/
+.vercel/
+.vercel/output
+generated
+turso-per-user-starter/
+dist/
+.env*.local
+.claude/
+.agents/
+.planning/

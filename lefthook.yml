@@ -1,0 +1,11 @@
+pre-commit:
+  commands:
+    format:
+      glob: "src/**/*.ts"
+      run: bunx @biomejs/biome format --write {staged_files}
+    lint:
+      glob: "src/**/*.ts"
+      run: bunx @biomejs/biome lint {staged_files}
+    typecheck:
+      glob: "src/**/*.ts"
+      run: bunx tsc --noEmit --project src/tsconfig.json
